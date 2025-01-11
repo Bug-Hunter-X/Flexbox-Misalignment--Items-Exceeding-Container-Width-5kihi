@@ -1,0 +1,21 @@
+/* solution.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Added to enable wrapping */
+}
+
+.item {
+  width: 50%;
+  box-sizing: border-box; /* Ensures that padding and border are included in the element's total width */
+  padding: 10px;
+  border: 1px solid #ccc; 
+}
+
+/*Example of how it would be used in HTML:
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+  <div class="item">Item 4</div>
+</div>*/
